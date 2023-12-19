@@ -5,14 +5,14 @@ This project is a simple integration with Traccar, an open-source vehicle tracki
 ## Prerequisites
 Make sure you have Docker and Node installed on your machine before getting started.
 
-## Docker Installation Guide
+## Installation Guide
 
 Usage Instructions
 
 Clone this repository to your local environment:
 
 ```bash
-git clone https://github.com/gheezzer/traccar-plugin.git
+git clone https://github.com/gheezzer/traccar-integration.git
 ```
 
 Navigate to the project directory:
