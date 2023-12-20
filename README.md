@@ -33,6 +33,18 @@ Run the Traccar server Docker container:
 sudo docker run -p 8082:8082 -p 5011:5011 --name traccar-container traccar-server
 ```
 
+Install the example project dependencies in Node:
+
+```bash
+npm install
+```
+
+Run the project to create the resources and connect to the server:
+
+```bash
+node index.js
+```
+
 Ensure that ports `8082` and `5011` are not in use by other services.
 
 Port 5011 refers to the `Suntech` tracker; if testing with another model, it's necessary to check the correct port in the documentation.
