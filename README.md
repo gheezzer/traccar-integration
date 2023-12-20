@@ -47,10 +47,10 @@ node index.js
 
 Ensure that ports `8082` and `5011` are not in use by other services.
 
-Port 5011 refers to the `Suntech` tracker; if testing with another model, it's necessary to check the correct port in the documentation.
+Port 5011 refers to the `Suntech` tracker; if testing with another model, it's necessary to check the correct port in the Traccar documentation.
 
 After a successful execution, the Traccar Server will be available at http://localhost:8082.
 
-The index.js file contains the logic for creating users, authenticating sessions, and connecting to the Traccar server via WebSocket.
+The index.js file contains the logic for creating users, authenticating sessions, and connecting to the [Traccar](https://www.traccar.org/documentation/) server via WebSocket.
 
 This is a project to assist in the initial integration with the Traccar Server.
