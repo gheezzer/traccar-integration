@@ -3,7 +3,7 @@
 This project is a simple integration with Traccar, an open-source vehicle tracking platform. The integration includes user creation, session authentication, and communication with the Traccar server using WebSocket.
 
 ## Prerequisites
-Make sure you have Docker and Node installed on your machine before getting started.
+Make sure you have [Docker](https://docs.docker.com/engine/install/) and [Node](https://github.com/nodesource/distributions?tab=readme-ov-file) installed on your machine before getting started.
 
 ## Installation Guide
 
