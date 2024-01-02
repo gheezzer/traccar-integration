@@ -30,7 +30,7 @@ sudo docker build -t traccar-server .
 Run the Traccar server Docker container:
 
 ```bash
-sudo docker run -d -p 80:8082 -p 5011:5011 -p 5011:5011/udp --name traccar-container traccar-server
+sudo docker run -d -p 80:8082 -p 5011:5011 --name traccar-container traccar-server
 ```
 
 Install the example project dependencies in Node:
